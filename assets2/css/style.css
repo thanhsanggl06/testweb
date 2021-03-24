@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    height: 46px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+#nav> li{
+    display: inline-block;
+    position: relative;
+}
+#nav li a{
+    line-height: 46px;
+    padding: 0 20px;
+    text-decoration: none;
+    color: #fff;
+}
+#nav>li:hover>a,
+.subnav>li:hover>a{
+    background-color: #ccc;
+    display: block;
+    color: black;
+}
+#nav .subnav{
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    min-width: 160px;
+    
+}
+#nav .subnav a{
+    color: black;
+    padding: 0 8px;
+}
+#nav li:hover .subnav{
+    display: block;
+}
+#nav .arrow-down{
+    font-size: 12px;
+}
+#nav .search-btn{
+    float: right;
+    color: #fff;
+    line-height: 46px;
+    padding: 0 20px;
+    font-size: 20px;
+}
+#nav .search-btn:hover{
+    background-color: red;
+    cursor: pointer;
+}
+#slider{
+    background: url(/assets2/img/slider.jpg) top center / cover no-repeat;
+    padding-top:50% ;
+    position: relative;
+}
+#slider .slider-text{
+    position: absolute;
+    bottom: 46px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+#slider .slider-content{
+    font-weight: 400;
+    margin: 10px;
+}
+#content .section-content{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 74px 0;
+}
+#content .section-heading{
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+#content .section-slogan{
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+#content .about-content{
+    text-align: justify;
+}
+#content .member{
+    width: 33.33333333%;
+    float: left;
+    text-align: center;
+}
+#content .member-avt{
+    width: 154px;
+}
+#content .member-list{
+    padding: 64px 0;
+}
+#content .name-member{
+    margin-bottom: 15px;
+}
