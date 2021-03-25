@@ -62,10 +62,13 @@ html{
     background-color: red;
     cursor: pointer;
 }
-#slider{
-    background: url(/assets2/img/slider.jpg) top center / cover no-repeat;
-    padding-top:50% ;
+#slider {
+   
     position: relative;
+}
+#slider .background{
+    width: 100%;
+   
 }
 #slider .slider-text{
     position: absolute;
@@ -77,6 +80,9 @@ html{
 #slider .slider-content{
     font-weight: 400;
     margin: 10px;
+}
+#content{
+   
 }
 #content .section-content{
     width: 800px;
